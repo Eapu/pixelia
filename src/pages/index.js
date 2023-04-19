@@ -35,9 +35,3 @@ query SpaceThumb {
   }
 }
 `
-
-/*
-instead of writing out a load of different properties
-use GatsbyImageSharpFluid fragment it packages up a number of
-different properties that we pass into the image component
-*/
