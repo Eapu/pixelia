@@ -6,12 +6,11 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 export default function Home({ data }) {
   const image = getImage(data.file.childImageSharp)
-console.log(data,'data')
+  console.log(data,'data')
   return (
     <Layout>
       <section className={styles.header}>
         <div>
-          <h2>Pixelia</h2>
           <h2>Design & Develop</h2>
           <p>Blender designer and web developer based in Canary Islands.</p>
           <Link className={styles.btn} to="/projects">Go to my designs</Link>
